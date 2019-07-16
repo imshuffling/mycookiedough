@@ -1,0 +1,41 @@
+{
+  "name": "Mary-jane",
+  "description": "Childrens speech therapist",
+  "version": "2.0.1",
+  "author": "David Riches <hi@davidrich.es>",
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.2.0",
+    "gatsby": "^2.12.0",
+    "gatsby-background-image": "^0.4.3",
+    "gatsby-image": "^2.2.3",
+    "gatsby-plugin-manifest": "^2.2.0",
+    "gatsby-plugin-offline": "^2.2.0",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sass": "^2.1.0",
+    "gatsby-plugin-sharp": "^2.2.1",
+    "gatsby-source-contentful": "^2.1.4",
+    "gatsby-transformer-remark": "^2.5.0",
+    "gatsby-transformer-sharp": "^2.2.0",
+    "intersection-observer": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "typeface-pt-sans": "0.0.72"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

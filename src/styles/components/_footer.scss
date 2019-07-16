@@ -1,0 +1,12 @@
+footer {
+  background: url('../images/footer-bg.png') no-repeat center bottom;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+
+  > div {
+    // max-width: var(--container);
+    // margin: 0px auto;
+    width: 100%;
+  }
+}

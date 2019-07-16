@@ -1,0 +1,48 @@
+@import "reset.scss";
+@import "grid-settings.scss";
+@import "components/components";
+@import "variables/variables";
+
+:root {
+  --container:    1200px;
+  --purple:     rgb(149,115,178);
+  --yellow:     rgb(255,241,211);
+  --blue:       rgb(163, 200, 234);
+  --heading-font: 'VodkaSansRough', sans-serif;
+  --base-font:    'buenos_airesregular', Arial;
+  background-color: var(--yellow);
+  font-weight: normal;
+  line-height: 1.42857;
+}
+
+.blockImage {
+  max-width: var(--container);
+  margin: 0px auto;
+}
+
+@font-face {
+  font-family: 'VodkaSansRough';
+  src: url('../fonts/VodkaSans-Rough.eot');
+  src: url('../fonts/VodkaSans-Rough.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/VodkaSans-Rough.woff2') format('woff2'),
+      url('../fonts/VodkaSans-Rough.woff') format('woff'),
+      url('../fonts/VodkaSans-Rough.ttf') format('truetype'),
+      url('../fonts/VodkaSans-Rough.svg#VodkaSans-Rough') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'buenos_airesregular';
+  src: url('../fonts/buenosaires-regular-webfont.woff2') format('woff2'),
+       url('../fonts/buenosaires-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
