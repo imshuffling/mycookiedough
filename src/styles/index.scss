@@ -10,19 +10,27 @@
   --blue:       rgb(163, 200, 234);
   --heading-font: 'VodkaSansRough', sans-serif;
   --base-font:    'buenos_airesregular', Arial;
+  --text-color:   rgb(84,34,93);
+
   background-color: var(--yellow);
   font-weight: normal;
   line-height: 1.42857;
+  font-family: var(--base-font);
+  color: var(--text-color);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
 }
-
-// .blockImage {
-//   max-width: var(--container);
-//   margin: 0px auto;
-// }
 
 .container {
   max-width: var(--container);
   margin: 0px auto;
+}
+
+.blockText {
+  padding: 45px 0px 55px 0px;
+  background-color: rgb(149,115,178);
+  text-align: center;
 }
 
 @font-face {
