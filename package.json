@@ -1,7 +1,7 @@
 {
-  "name": "Mary-jane",
-  "description": "Childrens speech therapist",
-  "version": "2.0.1",
+  "name": "mycookiedough",
+  "description": "POC",
+  "version": "1.0",
   "author": "David Riches <hi@davidrich.es>",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.2.0",

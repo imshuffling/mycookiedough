@@ -17,7 +17,7 @@ const options = {
 export default function BlockText({ body }) {
   return (
     <section className="blockText">
-      {documentToReactComponents(body.json, options)}
+      <div className="container">{documentToReactComponents(body.json, options)}</div>
     </section>
   );
 }
